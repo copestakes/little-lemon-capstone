@@ -3,6 +3,7 @@
 :root {
   --primary-color: #495e57;
   --secondary-color: #f4ce14;
+  --secondary-color-hover: #d8b60e;
 }
 
 body {
@@ -113,6 +114,10 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background-color: var(--secondary-color-hover);
+}
+
 .banner-img {
   position: absolute;
   right: 13%;
@@ -135,6 +140,7 @@ form .confirm {
 }
 
 .formfield {
+  margin: 50px;
   padding: 50px 20px;
 }
 
@@ -195,7 +201,7 @@ label {
 }
 
 .menu-items {
-  width: 350px;
+  width: 330px;
   background: #a9c8be;
   border-radius: 8px;
 }
@@ -204,6 +210,7 @@ label {
   width: 100%;
   height: 233px;
   border-radius: 8px;
+  object-fit: cover;
 }
 
 .menu-content {
@@ -316,6 +323,10 @@ footer ul li {
 
   .company-info p {
     width: 100%;
+  }
+
+  .formfield {
+    margin: 0;
   }
 }
 

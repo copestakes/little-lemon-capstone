@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import logo from './images/Logo.svg';
-import './index.css';
+import logo from '../images/Logo.svg';
+import '../index.css';
 
 function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);

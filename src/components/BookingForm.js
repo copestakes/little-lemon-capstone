@@ -19,7 +19,7 @@ function BookingForm(props) {
     <header>
       <section>
         <form onSubmit={handleSubmit}>
-          <fieldset className="formField">
+          <fieldset className="formfield">
             <div>
               <label htmlFor="book-date">Choose Date:</label>
               <input

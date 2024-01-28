@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import bannerImg from '../src/images/restauranfood.jpg';
+import bannerImg from '../images/restauranfood.jpg';
 
 const Header = () => {
   return (
@@ -14,7 +14,7 @@ const Header = () => {
           recipes served with a modern twist.
         </p>
         <Link to="/booking">
-          <button aria-aria-label="On Click">Reserve a Table</button>
+          <button aria-label="On Click">Reserve a Table</button>
         </Link>
 
         {/* banner image */}

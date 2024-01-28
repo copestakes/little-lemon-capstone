@@ -1,5 +1,5 @@
 import React from 'react';
-import recipes from './recipes';
+import recipes from '../recipes';
 import Swal from 'sweetalert2';
 
 const Menu = () => {
