@@ -7,6 +7,7 @@ import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import logo from './images/Logo.svg';
 import './App.css';
+import About from './components/About';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Main />
         <Menu />
         <Testimonials />
+        <About />
         <Footer />
       </header>
     </>
