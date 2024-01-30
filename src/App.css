@@ -184,7 +184,7 @@ label {
 }
 
 .confirm span {
-  color: blue;
+  color: var(--primary-color);
 }
 
 /* menu items */
