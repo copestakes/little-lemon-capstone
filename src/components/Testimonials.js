@@ -6,7 +6,7 @@ function Testimonials() {
     <section className="testimonial-container">
       <h2>See what are Customers are Saying!</h2>
       <div className="testimonial-card-container">
-        <div className="testimonial-card">
+        <article className="testimonial-card">
           <h5>Great Food!</h5>
           <p>
             Little Lemon Restaurant is an absolute delight! The cozy ambiance,
@@ -14,9 +14,9 @@ function Testimonials() {
             service and a burst of flavors make every visit a memorable
             experience.
           </p>
-        </div>
+        </article>
 
-        <div className="testimonial-card">
+        <article className="testimonial-card">
           <h5>Will be coming back</h5>
           <p>
             Little Lemon surpassed my expectations with its charming atmosphere
@@ -24,9 +24,9 @@ function Testimonials() {
             every dish, making each visit a unique and delightful culinary
             adventure.
           </p>
-        </div>
+        </article>
 
-        <div className="testimonial-card">
+        <article className="testimonial-card">
           <h5>Divine</h5>
           <p>
             Little Lemon is a culinary masterpiece! From the carefully curated
@@ -34,9 +34,9 @@ function Testimonials() {
             perfection. The staff's passion for food and top-notch service make
             dining here an exceptional experience.
           </p>
-        </div>
+        </article>
 
-        <div className="testimonial-card">
+        <article className="testimonial-card">
           <h5>A hidden gem</h5>
           <p>
             Little Lemon is a gem in the dining scene. The diverse menu,
@@ -45,7 +45,7 @@ function Testimonials() {
             attentive staff make each visit to Little Lemon a consistently
             excellent dining experience.
           </p>
-        </div>
+        </article>
       </div>
     </section>
   );
