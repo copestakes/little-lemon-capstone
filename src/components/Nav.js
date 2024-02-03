@@ -9,7 +9,7 @@ function Nav() {
   };
   return (
     <nav className={`navbar ${menuOpen ? 'open' : ''}`}>
-      <a href="/" className="logo">
+      <a href="/little-lemon-capstone" className="logo">
         <img src={logo} alt="logo" />
       </a>
 
