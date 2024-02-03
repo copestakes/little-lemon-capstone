@@ -50,7 +50,7 @@ const Main = () => {
   return (
     <main className="main">
       <Routes>
-        <Route path="/little-lemon-capstone" element={<Header />} />
+        <Route path="/" element={<Header />} />
         <Route
           path="/booking"
           element={
