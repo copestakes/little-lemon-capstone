@@ -8,6 +8,7 @@ function ConfirmedBooking() {
           Booking has been <span>Confirmed!</span>
         </h1>
       </div>
+      <button>Return</button>
     </div>
   );
 }

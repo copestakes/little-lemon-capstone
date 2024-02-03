@@ -136,6 +136,13 @@ button:hover {
   border-radius: 20px;
 }
 
+.confirm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 form .confirm {
   padding: 10px 13%;
 }
