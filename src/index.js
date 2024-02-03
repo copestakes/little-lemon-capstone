@@ -4,8 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router, Route } from 'react-router-dom';
+// Using HashRouter instead of BrowswerRouter because BrowserRouter does not work with GitHub Pages
 // import { BrowserRouter } from 'react-router-dom';
-// change to hashrouter when you wake up tomorrow!!!!
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
