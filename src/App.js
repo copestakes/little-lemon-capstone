@@ -14,7 +14,6 @@ function App() {
       <header>
         <Nav />
         <Main />
-        <Header />
         <Menu />
         <Testimonials />
         <About />
