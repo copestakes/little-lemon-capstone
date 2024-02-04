@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Header from './Header';
 
 function ConfirmedBooking() {
   return (
@@ -8,7 +10,9 @@ function ConfirmedBooking() {
           Booking has been <span>Confirmed!</span>
         </h1>
       </div>
-      <button>Return</button>
+      <Link to="/">
+        <button>Return</button>
+      </Link>
     </div>
   );
 }
