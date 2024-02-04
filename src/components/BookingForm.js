@@ -6,6 +6,7 @@ function BookingForm(props) {
   const [times, setTimes] = useState('');
   const [guests, setGuest] = useState('');
   const [occasion, setOccasion] = useState('');
+  const [name, setName] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -22,7 +23,17 @@ function BookingForm(props) {
           <fieldset className="formfield">
             <div className="formfield-flex">
               {/*left colum */}
-              <div>
+              <div className="left-col">
+                <div>
+                  <label htmlFor="book-name">Name:</label>
+                  <input
+                    id="book-name"
+                    value={name}
+                    onChange={(e) => handleChange(e.target.value)}
+                    type="text"
+                    required
+                  />
+                </div>
                 <div>
                   <label htmlFor="book-date">Choose Date:</label>
                   <input
@@ -51,14 +62,11 @@ function BookingForm(props) {
                     )}
                   </select>
                 </div>
-              </div>
 
-              {/* for number of guest */}
-
-              {/* right column */}
-              <div>
+                {/* for number of guest */}
                 <div>
                   <label htmlFor="book-guests">Number of Guests:</label>
+
                   <input
                     type="number"
                     id="book-guest"
@@ -80,16 +88,20 @@ function BookingForm(props) {
                     <option>Anniversary</option>
                   </select>
                 </div>
+
+                {/* submit button */}
+                <div className="btnReceive">
+                  <input
+                    aria-label="On Click"
+                    type="submit"
+                    value={'Make Your Reservation'}
+                  />
+                </div>
               </div>
+              {/* right column */}
+              <div className="right-col"></div>
             </div>
-            {/* submit button */}
-            <div className="btnReceive">
-              <input
-                aria-label="On Click"
-                type="submit"
-                value={'Make Your Reservation'}
-              />
-            </div>
+
             {/* </div> */}
           </fieldset>
         </form>

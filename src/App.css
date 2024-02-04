@@ -165,22 +165,39 @@ form .confirm {
 .formfield {
   margin: 50px;
   padding: 50px 20px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .formfield-flex {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 2em;
 }
 
-input,
+.formfield-flex > div {
+  flex: 1;
+  padding: 2em;
+}
+
+.right-col {
+  background: url(images/greek\ salad.jpg);
+  background-size: cover;
+}
+
 label {
-  display: inline-block;
-  margin-right: 20px;
+  display: block;
+  font-weight: 700;
+  font-size: 0.8em;
+  margin-bottom: 8px;
+}
+
+input {
+  display: block;
   margin-bottom: 20px;
 }
 
+#book-name,
 #book-date,
 #book-time,
 #book-guest,
@@ -427,6 +444,10 @@ footer ul li {
 
   .testimonial-container {
     padding: 4em;
+  }
+
+  .right-col {
+    display: none;
   }
 }
 
