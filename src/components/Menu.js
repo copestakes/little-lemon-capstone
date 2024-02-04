@@ -36,11 +36,13 @@ const Menu = () => {
           <div key={recipe.id} className="menu-items">
             <img src={recipe.image} alt="" />
             <div className="menu-content">
-              <div className="heading">
-                <h5>{recipe.title}</h5>
-                <p>{recipe.price}</p>
+              <div className="menu-content-description">
+                <div className="heading">
+                  <h5>{recipe.title}</h5>
+                  <p>{recipe.price}</p>
+                </div>
+                <p>{recipe.description}</p>
               </div>
-              <p>{recipe.description}</p>
               <button
                 className="orderBtn"
                 onClick={() => handleOrder(recipe.id)}

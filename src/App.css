@@ -17,6 +17,10 @@ p {
   line-height: 1.5;
 }
 
+h5 {
+  font-size: 1.2em;
+}
+
 li {
   list-style: none;
 }
@@ -121,6 +125,10 @@ button {
 
 button:hover {
   background-color: var(--secondary-color-hover);
+}
+
+.btn-icon {
+  margin-left: 0.5em;
 }
 
 .banner-img {
@@ -244,6 +252,11 @@ label {
 .menu-content .heading {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.menu-content-description {
+  min-height: 250px;
 }
 
 .orderbtn {
@@ -271,6 +284,12 @@ label {
   border-radius: 8px;
   padding: 1em;
   max-width: 230px;
+}
+
+.testimonial-star-ratings {
+  display: flex;
+  color: var(--secondary-color);
+  font-size: 1.5em;
 }
 
 .about-banner {
@@ -395,6 +414,14 @@ footer ul li {
 
   .about-banner {
     display: block;
+  }
+
+  .testimonial-card {
+    max-width: 100%;
+  }
+
+  .testimonial-container {
+    padding: 4em;
   }
 }
 

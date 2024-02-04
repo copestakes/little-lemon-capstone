@@ -1,12 +1,28 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
+
+const Ratings = () => {
+  // Your component code here
+  return (
+    <div className="ratings">
+      <FontAwesomeIcon icon={faStar} />
+    </div>
+  );
+};
 
 function Testimonials() {
+  // Use Array.from to create an array with 5 elements
+  const repeatedComponents = Array.from({ length: 5 }, (value, index) => (
+    <Ratings key={index} />
+  ));
+
   return (
     <section className="testimonial-container">
       <h2>See what are Customers are Saying!</h2>
       <div className="testimonial-card-container">
         <article className="testimonial-card">
+          <div className="testimonial-star-ratings">{repeatedComponents}</div>
           <h5>Great Food!</h5>
           <p>
             Little Lemon Restaurant is an absolute delight! The cozy ambiance,
@@ -17,6 +33,7 @@ function Testimonials() {
         </article>
 
         <article className="testimonial-card">
+          <div className="testimonial-star-ratings">{repeatedComponents}</div>
           <h5>Will be coming back</h5>
           <p>
             Little Lemon surpassed my expectations with its charming atmosphere
@@ -27,6 +44,7 @@ function Testimonials() {
         </article>
 
         <article className="testimonial-card">
+          <div className="testimonial-star-ratings">{repeatedComponents}</div>
           <h5>Divine</h5>
           <p>
             Little Lemon is a culinary masterpiece! From the carefully curated
@@ -37,6 +55,7 @@ function Testimonials() {
         </article>
 
         <article className="testimonial-card">
+          <div className="testimonial-star-ratings">{repeatedComponents}</div>
           <h5>A hidden gem</h5>
           <p>
             Little Lemon is a gem in the dining scene. The diverse menu,
