@@ -148,6 +148,13 @@ button:hover {
   box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.25);
 }
 
+.banner-img2 {
+  position: absolute;
+  right: 13%;
+  top: 60%;
+  width: 400px;
+}
+
 .confirm {
   display: flex;
   justify-content: center;
@@ -272,6 +279,7 @@ input {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 60px;
 }
 
 .cards {

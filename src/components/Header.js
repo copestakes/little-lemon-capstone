@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import bannerImg from '../images/restauranfood.jpg';
+import bannerImg2 from '../images/bruschetta.png';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faChevronRight,
@@ -31,6 +33,10 @@ const Header = () => {
         <div className="banner-img">
           <img src={bannerImg} alt="" />
         </div>
+
+        {/* <div className="banner-img2">
+          <img src={bannerImg2} alt="" />
+        </div> */}
       </section>
     </header>
   );
