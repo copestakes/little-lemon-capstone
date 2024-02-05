@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/little-lemon-capstone/static/css/main.ab9cd8ff.css",
-    "main.js": "/little-lemon-capstone/static/js/main.77974207.js",
+    "main.css": "/little-lemon-capstone/static/css/main.28c13ea1.css",
+    "main.js": "/little-lemon-capstone/static/js/main.c28ed844.js",
     "static/js/787.0e637884.chunk.js": "/little-lemon-capstone/static/js/787.0e637884.chunk.js",
     "static/media/Mario and Adrian A.jpg": "/little-lemon-capstone/static/media/Mario and Adrian A.7f44c6d6e341a27d14b3.jpg",
     "static/media/Mario and Adrian b.jpg": "/little-lemon-capstone/static/media/Mario and Adrian b.6ba0e06bfa9c1ea75109.jpg",
-    "static/media/restauranfood.jpg": "/little-lemon-capstone/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
+    "static/media/table-background.jpg": "/little-lemon-capstone/static/media/table-background.b5f5347f3b0d745065ae.jpg",
+    "static/media/spaghetti.png": "/little-lemon-capstone/static/media/spaghetti.ebb6b4780708af9ca03c.png",
     "static/media/bruschetta.png": "/little-lemon-capstone/static/media/bruschetta.02f47ef985ac002e3ae4.png",
     "static/media/dinner-table.jpg": "/little-lemon-capstone/static/media/dinner-table.5a2dcd8f98159b28a068.jpg",
     "static/media/Logo.svg": "/little-lemon-capstone/static/media/Logo.f72c913c48c5334f78f2c336ec36f22b.svg",
     "static/media/table-confirm.png": "/little-lemon-capstone/static/media/table-confirm.411455e4821e036c5234.png",
     "index.html": "/little-lemon-capstone/index.html",
-    "main.ab9cd8ff.css.map": "/little-lemon-capstone/static/css/main.ab9cd8ff.css.map",
-    "main.77974207.js.map": "/little-lemon-capstone/static/js/main.77974207.js.map",
+    "main.28c13ea1.css.map": "/little-lemon-capstone/static/css/main.28c13ea1.css.map",
+    "main.c28ed844.js.map": "/little-lemon-capstone/static/js/main.c28ed844.js.map",
     "787.0e637884.chunk.js.map": "/little-lemon-capstone/static/js/787.0e637884.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab9cd8ff.css",
-    "static/js/main.77974207.js"
+    "static/css/main.28c13ea1.css",
+    "static/js/main.c28ed844.js"
   ]
 }
