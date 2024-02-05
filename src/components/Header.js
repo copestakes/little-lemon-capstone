@@ -28,16 +28,12 @@ const Header = () => {
             </span>
           </button>
         </Link>
-
-        {/* banner image */}
-        <div className="banner-img">
-          <img src={bannerImg} alt="" />
-        </div>
-
-        {/* <div className="banner-img2">
-          <img src={bannerImg2} alt="" />
-        </div> */}
       </section>
+
+      {/* banner image */}
+      <div className="banner-img">
+        <img src={bannerImg} alt="" />
+      </div>
     </header>
   );
 };
