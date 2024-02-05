@@ -111,6 +111,10 @@ function BookingForm(props) {
                 </div>
 
                 {/* submit button */}
+                <p className="microcopy">
+                  After Completing the form, you will receive a confirmation of
+                  your reservation to your email address provided.
+                </p>
                 <div className="btnReceive">
                   <input
                     aria-label="On Click"
