@@ -519,6 +519,10 @@ footer ul li {
   .right-col {
     display: none;
   }
+
+  .nav-reserve {
+    display: none;
+  }
 }
 
 .hidden {

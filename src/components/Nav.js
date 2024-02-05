@@ -48,7 +48,7 @@ function Nav() {
         </li>
       </ul>
 
-      <Link to="/booking">
+      <Link className="nav-reserve" to="/booking">
         <button className="small-btn" aria-label="On Click">
           Reserve a Table
         </button>
