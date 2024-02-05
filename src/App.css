@@ -252,6 +252,11 @@ input {
   color: var(--primary-color);
 }
 
+.confirm img {
+  display: block;
+  width: 100%;
+}
+
 /* menu items */
 .menu-container {
   margin: 110px auto;
