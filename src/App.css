@@ -141,6 +141,10 @@ button:hover {
   background-color: var(--secondary-color-hover);
 }
 
+.small-btn {
+  font-size: 14px;
+}
+
 .btn-icon {
   margin-left: 0.5em;
 }

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../images/Logo.svg';
+import { Link } from 'react-router-dom';
 import '../index.css';
 
 function Nav() {
@@ -46,6 +47,12 @@ function Nav() {
           <a href="/">Login</a>
         </li>
       </ul>
+
+      <Link to="/booking">
+        <button className="small-btn" aria-label="On Click">
+          Reserve a Table
+        </button>
+      </Link>
     </nav>
   );
 }

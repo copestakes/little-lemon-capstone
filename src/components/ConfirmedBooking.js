@@ -13,7 +13,7 @@ function ConfirmedBooking() {
         </h1>
       </div>
       <Link to="/">
-        <button>Return to Menu</button>
+        <button className="small-btn">Return to Menu</button>
       </Link>
     </div>
   );
