@@ -379,18 +379,24 @@ input {
 .about-banner {
   background-color: var(--primary-color);
   color: #edefee;
-  padding: 4em 13%;
+  padding: 4em 20%;
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 2rem 1rem;
 }
 
-.about-content {
+.about-banner > div {
+  flex: 1;
+}
+
+/* .about-content {
   flex: 2;
 }
 
 .about-img {
   flex: 1;
-}
+} */
 
 .about-img img {
   width: 100%;
@@ -505,7 +511,8 @@ footer ul li {
   }
 
   .about-banner {
-    display: block;
+    flex-direction: column-reverse;
+    padding: 2em 13%;
   }
 
   .testimonial-card {

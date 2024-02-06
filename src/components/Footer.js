@@ -56,13 +56,13 @@ function Footer() {
           <h3>Social Media Links</h3>
           <ul>
             <li>
-              <a href="/">Facebook</a>
+              <a href="/little-lemon-capstone">Facebook</a>
             </li>
             <li>
-              <a href="/">Instagram</a>
+              <a href="/little-lemon-capstone">Instagram</a>
             </li>
             <li>
-              <a href="/">Twitter</a>
+              <a href="/little-lemon-capstone">Twitter</a>
             </li>
           </ul>
         </div>
