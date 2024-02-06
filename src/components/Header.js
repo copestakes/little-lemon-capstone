@@ -14,20 +14,22 @@ const Header = () => {
     <header className="header">
       <section className="banner">
         {/* banner text */}
-        <h2>Little Lemon</h2>
-        <h3>Chicago</h3>
-        <p>
-          We are a family owed Mediterranean restaurant, focused on traditional
-          recipes served with a modern twist.
-        </p>
-        <Link to="/booking">
-          <button aria-label="On Click">
-            Reserve a Table
-            <span className="btn-icon">
-              <FontAwesomeIcon icon={faChevronRight} />
-            </span>
-          </button>
-        </Link>
+        <div className="banner-text">
+          <h2>Little Lemon</h2>
+          <h3>Chicago</h3>
+          <p>
+            We are a family owed Mediterranean restaurant, focused on
+            traditional recipes served with a modern twist.
+          </p>
+          <Link to="/booking">
+            <button aria-label="On Click">
+              Reserve a Table
+              <span className="btn-icon">
+                <FontAwesomeIcon icon={faChevronRight} />
+              </span>
+            </button>
+          </Link>
+        </div>
       </section>
 
       {/* banner image */}
