@@ -435,6 +435,8 @@ footer ul li {
 @media screen and (max-width: 768px) {
   .banner-text {
     background-color: transparent;
+    padding: 0;
+    box-shadow: unset;
     width: 100%;
   }
 
