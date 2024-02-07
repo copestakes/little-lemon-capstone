@@ -19,7 +19,9 @@ function Testimonials() {
 
   return (
     <section className="testimonial-container">
-      <h2>See what are Customers are Saying!</h2>
+      <h2 className="testimonial-heading">
+        See what are Customers are Saying!
+      </h2>
       <div className="testimonial-card-container">
         <article className="testimonial-card">
           <div className="testimonial-star-ratings">{repeatedComponents}</div>

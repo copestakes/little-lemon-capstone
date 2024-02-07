@@ -346,6 +346,10 @@ input {
   padding: 4em 6em;
 }
 
+.testimonial-heading {
+  text-align: center;
+}
+
 .testimonial-card-container {
   display: flex;
   flex-wrap: wrap;
