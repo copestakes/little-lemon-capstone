@@ -7,6 +7,7 @@
   --secondary-color: #f4ce14;
   --secondary-color-hover: #d8b60e;
   --secondary-color-light: #f5f4ee;
+  --secondary-color-dark: #333333;
 }
 
 body {
@@ -46,7 +47,11 @@ nav ul li {
   padding: 1em;
 }
 nav ul li a {
-  color: #000;
+  color: var(--secondary-color-dark);
+}
+
+a:visited {
+  color: var(--secondary-color-dark);
 }
 
 nav ul li a:hover {
@@ -432,6 +437,14 @@ footer ul li {
 }
 
 @media screen and (max-width: 768px) {
+  .banner-text {
+    background-color: transparent;
+    width: 100%;
+  }
+
+  .header {
+    display: block;
+  }
   .menu-icon {
     display: block;
   }
