@@ -60,7 +60,7 @@ function BookingForm(props) {
 
                   {/* for number of guest */}
                   <div>
-                    <label htmlFor="book-guests">Number of Guests:</label>
+                    <label htmlFor="book-guest">Number of Guests:</label>
 
                     <input
                       type="number"

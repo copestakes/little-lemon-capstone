@@ -7,7 +7,7 @@ function ConfirmedBooking() {
   return (
     <div className="confirm">
       <div>
-        <img src={ConfirmImg} />
+        <img src={ConfirmImg} alt="table" />
         <h1>
           Booking has been <span>Confirmed!</span>
         </h1>

@@ -273,7 +273,8 @@ input {
 
 .confirm img {
   display: block;
-  width: 100%;
+  width: 60%;
+  margin: 0 auto;
 }
 
 /* menu items */
